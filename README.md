@@ -3,7 +3,6 @@
 # 🐟 DryFishLicense
 
 [![License: Dryfish v1.1.1](https://img.shields.io/badge/License-Dryfish--1.1.1-blue.svg)](https://github.com/dryfish09/DryFishLicense)
-[![GitHub release](https://img.shields.io/github/v/release/dryfish09/DryFishLicense)](https://github.com/dryfish09/DryFishLicense/releases)
 [![GitHub stars](https://img.shields.io/github/stars/dryfish09/DryFishLicense)](https://github.com/dryfish09/DryFishLicense/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/dryfish09/DryFishLicense)](https://github.com/dryfish09/DryFishLicense/network)
 
