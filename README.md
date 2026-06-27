@@ -1,8 +1,5 @@
-Đây là **README.md** hoàn chỉnh cho repository `DryFishLicense`:
 
----
 
-```markdown
 # 🐟 DryFishLicense
 
 [![License: Dryfish v1.1.1](https://img.shields.io/badge/License-Dryfish--1.1.1-blue.svg)](https://github.com/dryfish09/DryFishLicense)
