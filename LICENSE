@@ -19,36 +19,38 @@ Any distribution of the Software, whether modified or unmodified, must retain
 the above copyright notice and this permission notice in all copies or
 substantial portions of the Software.
 
-III. PROJECT RENAMING OBLIGATION (MANDATORY)
+III. PROJECT RENAMING OBLIGATION III. PROJECT RENAMING OBLIGATION (MANDATORY)
 
-When you distribute a modified version of the Software as a STANDALONE PROJECT
-(meaning you create a new project that is a derivative work of the original),
-you MUST rename the project to a name that is clearly different from the
-original project name. You are NOT permitted to use the original name,
-abbreviation, logo, or any variation thereof that could cause confusion with
-the original work.
+When you distribute a modified version of the Software as a STANDALONE PROJECT,
+you MUST rename the project to a name that is CLEARLY DIFFERENT from the 
+original project name.
 
-EXCEPTION: If you are using the Software as a LIBRARY, PACKAGE, OR DEPENDENCY
-within your own project (whether modified or unmodified), you are NOT required
-to rename the library's internal package name, class names, or namespace.
-The original package name (e.g., com.example.originallib) may remain unchanged.
+For the purposes of this license, "PROJECT NAME" includes, but is not limited to:
 
-Example 1 (Standalone Project - MUST rename):
-- You fork "SuperLogger" and build a new logging application called "MegaLogger"
-- You MUST rename the project, directory name, and executable name
-- You MAY keep internal package names (e.g., com.superlogger.core) unchanged
+1. Repository name (e.g., "DryfishLib")
+2. Package/Namespace name (e.g., "com.dryfish.core")
+3. Binary/Executable name (e.g., "dryfish-cli")
+4. Display name (e.g., "DryFish Library")
+5. Logo and branding elements
+6. Any marketing terms used to identify the software
+7. Domain names and URLs associated with the project
+8. Social media handles (Twitter, GitHub, etc.)
 
-Example 2 (Library Usage - NO rename required):
-- You add "SuperLogger" as a dependency in your project "MyApp"
-- Your project uses import com.superlogger.core.Logger
-- You DO NOT need to rename the package com.superlogger.core
+"Clearly different" means:
+- Different root words (e.g., "Fish" → "Shark")
+- Different conceptual branding (e.g., "Dry" → "Wet")
+- Visually distinct (not just changing case, spacing, or punctuation)
 
-Example 3 (Library with modifications - NO rename required):
-- You modify "SuperLogger" library to fix a bug and use it in your project
-- You distribute your modified version as a library
-- You DO NOT need to rename the package, but you MUST clearly indicate your
-  modifications are not from the original author (e.g., in the library's README)
+Examples of VIOLATION:
+- "DryfishLib" → "DryFishLib" (only case change)
+- "DryfishLib" → "Dryfish-Lib" (only hyphen added)
+- "DryfishLib" → "DryfishLib2" (only number added)
+- "DryfishLib" → "DRYFISH" (only case change)
 
+Examples of COMPLIANCE:
+- "DryfishLib" → "WetfishLib" (different word)
+- "DryfishLib" → "SuperLogger" (completely different)
+- "DryfishLib" → "BlueFish" (different branding)
 IV. DISCLAIMER OF WARRANTY
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
