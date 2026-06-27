@@ -54,14 +54,44 @@ The following are considered COMPLIANT with this section:
 - Completely different name: "DryFishLib" → "SuperLogger" or "DataProcessor"
 - Different branding concept: "DryFishLib" → "BlueOcean" or "CrystalCore"
 
-EXCEPTION: If you are using the Software as a LIBRARY, PACKAGE, OR DEPENDENCY
-within your own project (whether modified or unmodified), you are NOT required
-to rename the library's internal package name, class names, or namespace.
-The original package name (e.g., com.dryfish.core) may remain unchanged.
-However, if you distribute the library itself as a separate product, you MUST
-rename the distribution name (e.g., JAR filename, npm package name, PyPI package name).
+EXCEPTION 1 - Library/Dependency Usage:
+If you are using the Software as a LIBRARY, PACKAGE, OR DEPENDENCY within your
+own project (whether modified or unmodified), you are NOT required to rename
+the library's internal package name, class names, or namespace. The original
+package name (e.g., com.dryfish.core) may remain unchanged. However, if you
+distribute the library itself as a separate product, you MUST rename the
+distribution name (e.g., JAR filename, npm package name, PyPI package name).
 
-IV. DISCLAIMER OF WARRANTY
+EXCEPTION 2 - Internal Use:
+If you modify the Software for INTERNAL USE ONLY within your organization
+(e.g., fixing bugs, adding features for internal tools, customizing for
+company-specific needs) and do NOT distribute it outside your organization,
+you are NOT required to rename anything. This exception applies regardless of
+whether the Software is used as a library or as a standalone application.
+
+EXCEPTION 3 - Unmodified Distribution:
+If you distribute the Software WITHOUT ANY MODIFICATIONS (verbatim copies),
+you are NOT required to rename anything. However, you MUST retain all
+copyright notices and this permission notice (Section II).
+
+IV. PATENT GRANT
+
+Each contributor to the Software grants you a non-exclusive, worldwide,
+royalty-free, irrevocable patent license to make, have made, use, offer to
+sell, sell, import, and otherwise transfer the Software, including any
+modifications or derivative works created by you.
+
+This patent license applies only to patent claims that are necessarily
+infringed by the contributor's contribution(s) alone or by combination of
+their contribution(s) with the Software to which they contributed.
+
+If you institute patent litigation against any entity (including a cross-claim
+or counterclaim in a lawsuit) alleging that the Software or a contribution
+incorporated within the Software constitutes direct or contributory patent
+infringement, then the rights granted to you under this license for the
+Software shall terminate automatically.
+
+V. DISCLAIMER OF WARRANTY
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -71,18 +101,18 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-V. TERMINATION
+VI. TERMINATION
 
 Any rights granted under this license will terminate automatically and
-immediately if you fail to comply with Section II (Attribution Requirement)
-or Section III (Project Renaming Obligation).
+immediately if you fail to comply with Section II (Attribution Requirement),
+Section III (Project Renaming Obligation), or Section IV (Patent Grant).
 
-VI. ACCEPTANCE
+VII. ACCEPTANCE
 
 By using, copying, modifying, or distributing the Software, you indicate your
 acceptance of all terms and conditions of this license.
 
-VII. COMPATIBILITY WITH OTHER LICENSES
+VIII. COMPATIBILITY WITH OTHER LICENSES
 
 This license is designed to be compatible with permissive licenses (MIT, BSD,
 Apache-2.0) for combined works. However, if you combine this Software with
@@ -94,20 +124,38 @@ This license is NOT compatible with:
 - GPL-3.0 (same issue)
 - AGPL-3.0 (same issue)
 
-VIII. GOVERNING LAW
+IX. GOVERNING LAW
 
 This license shall be governed by and construed in accordance with the laws of
 [COUNTRY/STATE], without regard to its conflict of law provisions.
+
+X. LICENSE VERSIONING
+
+This license is identified by SPDX-License-Identifier: Dryfish-1.1.1.
+Future versions may be released by the original author or designated
+maintainers. You may use any version of this license for your project,
+but you MUST specify which version applies to your distribution
+(e.g., "Dryfish-1.1.1" in your LICENSE file).
+
+If a future version is released, you are NOT required to upgrade to the
+new version. You may continue using the version you originally chose.
 
 ---
 
 "Dryfish" is the name of this license, not the name of the software.
 
-IMPORTANT NOTE: If you are using this software as a library dependency (e.g.,
-import/require/include in your project), you do NOT need to rename anything.
-The renaming obligation only applies when you create a standalone forked
-project that is meant to be a separate product with its own identity.
+IMPORTANT REMINDERS:
+1. If you are using this software as a library dependency (e.g., import/require/
+   include in your project), you do NOT need to rename anything.
+2. If you modify the software for internal use only (not distributed outside
+   your organization), you do NOT need to rename anything.
+3. If you distribute the software without modifications, you do NOT need to
+   rename anything.
+4. The renaming obligation only applies when you create a standalone forked
+   project that is distributed as a separate product with its own identity.
 
 If you are unsure whether your use case requires renaming, contact the original
 author for clarification.
+
+---
 
