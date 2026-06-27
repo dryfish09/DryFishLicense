@@ -1,7 +1,9 @@
 DRYFISH LICENSE
-Version 1.1, June 2026
+Version 1.1.1, June 2026
 
 Copyright (c) [YEAR] [AUTHOR NAME]
+
+SPDX-License-Identifier: Dryfish-1.1.1
 
 I. GRANT OF RIGHTS
 
@@ -19,19 +21,17 @@ Any distribution of the Software, whether modified or unmodified, must retain
 the above copyright notice and this permission notice in all copies or
 substantial portions of the Software.
 
-III. PROJECT RENAMING OBLIGATION III. PROJECT RENAMING OBLIGATION (MANDATORY)
+III. PROJECT RENAMING OBLIGATION (MANDATORY)
 
 When you distribute a modified version of the Software as a STANDALONE PROJECT,
 you MUST rename the project to a name that is CLEARLY DIFFERENT from the 
-original project name.
+original project name. The original project name includes, but is not limited to:
 
-For the purposes of this license, "PROJECT NAME" includes, but is not limited to:
-
-1. Repository name (e.g., "DryfishLib")
-2. Package/Namespace name (e.g., "com.dryfish.core")
-3. Binary/Executable name (e.g., "dryfish-cli")
-4. Display name (e.g., "DryFish Library")
-5. Logo and branding elements
+1. Repository name (e.g., "DryFishLib" → "WetFishLib" ✓ or "DRYFISH" ✗)
+2. Package/Namespace name (e.g., "com.dryfish.core" → "com.wetfish.core" ✓)
+3. Binary/Executable name (e.g., "dryfish-cli" → "wetfish-cli" ✓)
+4. Display name (e.g., "DryFish Library" → "WetFish Library" ✓)
+5. Logo and branding elements (must be visually distinct)
 6. Any marketing terms used to identify the software
 7. Domain names and URLs associated with the project
 8. Social media handles (Twitter, GitHub, etc.)
@@ -41,16 +41,26 @@ For the purposes of this license, "PROJECT NAME" includes, but is not limited to
 - Different conceptual branding (e.g., "Dry" → "Wet")
 - Visually distinct (not just changing case, spacing, or punctuation)
 
-Examples of VIOLATION:
-- "DryfishLib" → "DryFishLib" (only case change)
-- "DryfishLib" → "Dryfish-Lib" (only hyphen added)
-- "DryfishLib" → "DryfishLib2" (only number added)
-- "DryfishLib" → "DRYFISH" (only case change)
+The following are considered VIOLATIONS of this section:
+- Changing only case: "DryFishLib" → "dryfishlib" or "DRYFISHLIB"
+- Adding only punctuation: "DryFishLib" → "Dry-Fish-Lib" or "DryFish.Lib"
+- Adding only numbers: "DryFishLib" → "DryFishLib2" or "DryFishLib2024"
+- Changing only spacing: "DryFishLib" → "Dry Fish Lib"
+- Using abbreviations that clearly refer to the original: "DryFishLib" → "DFL" or "DFLib"
+- Adding prefixes/suffixes that don't change the core identity: "DryFishLib" → "SuperDryFishLib" or "DryFishLibPro"
 
-Examples of COMPLIANCE:
-- "DryfishLib" → "WetfishLib" (different word)
-- "DryfishLib" → "SuperLogger" (completely different)
-- "DryfishLib" → "BlueFish" (different branding)
+The following are considered COMPLIANT with this section:
+- Different root word: "DryFishLib" → "WetFishLib" or "AquaLib"
+- Completely different name: "DryFishLib" → "SuperLogger" or "DataProcessor"
+- Different branding concept: "DryFishLib" → "BlueOcean" or "CrystalCore"
+
+EXCEPTION: If you are using the Software as a LIBRARY, PACKAGE, OR DEPENDENCY
+within your own project (whether modified or unmodified), you are NOT required
+to rename the library's internal package name, class names, or namespace.
+The original package name (e.g., com.dryfish.core) may remain unchanged.
+However, if you distribute the library itself as a separate product, you MUST
+rename the distribution name (e.g., JAR filename, npm package name, PyPI package name).
+
 IV. DISCLAIMER OF WARRANTY
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -72,6 +82,23 @@ VI. ACCEPTANCE
 By using, copying, modifying, or distributing the Software, you indicate your
 acceptance of all terms and conditions of this license.
 
+VII. COMPATIBILITY WITH OTHER LICENSES
+
+This license is designed to be compatible with permissive licenses (MIT, BSD,
+Apache-2.0) for combined works. However, if you combine this Software with
+copyleft-licensed software (GPL, AGPL), the resulting work must comply with
+the terms of BOTH licenses. In case of conflict, the stricter terms prevail.
+
+This license is NOT compatible with:
+- GPL-2.0 (due to GPL's source disclosure requirement vs. proprietary allowance)
+- GPL-3.0 (same issue)
+- AGPL-3.0 (same issue)
+
+VIII. GOVERNING LAW
+
+This license shall be governed by and construed in accordance with the laws of
+[COUNTRY/STATE], without regard to its conflict of law provisions.
+
 ---
 
 "Dryfish" is the name of this license, not the name of the software.
@@ -80,3 +107,7 @@ IMPORTANT NOTE: If you are using this software as a library dependency (e.g.,
 import/require/include in your project), you do NOT need to rename anything.
 The renaming obligation only applies when you create a standalone forked
 project that is meant to be a separate product with its own identity.
+
+If you are unsure whether your use case requires renaming, contact the original
+author for clarification.
+
