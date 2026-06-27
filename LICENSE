@@ -1,27 +1,40 @@
-Dryfish License v1.0
-Copyright (c) <year> <author name>
+DRYFISH LICENSE
+Version 1.0, June 2026
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Copyright (c) [YEAR] [AUTHOR NAME]
 
-1. ATTRIBUTION
-   The above copyright notice and this permission notice shall be included in
-   all copies or substantial portions of the Software.
+I. GRANT OF RIGHTS
 
-2. ENCOURAGED RENAMING (OPTIONAL)
-   When distributing modified versions of the Software, you are strongly
-   encouraged (but not required) to rename the project to a different name
-   to avoid confusion with the original work. Using the original name is
-   permitted but not recommended.
+You are permitted to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to allow others to do the same, subject
+to the terms below.
 
-3. COMMERCIAL USE AND PROPRIETARY INTEGRATION
-   This license permits integration into proprietary (closed-source) software
-   and allows commercial redistribution without requiring the source code to
-   be disclosed.
+This grant applies to both commercial and non-commercial purposes, and includes
+the right to integrate the Software into proprietary (closed-source) projects
+without requiring the source code of the combined work to be disclosed.
+
+II. ATTRIBUTION REQUIREMENT
+
+Any distribution of the Software, whether modified or unmodified, must retain
+the above copyright notice and this permission notice in all copies or
+substantial portions of the Software.
+
+III. PROJECT RENAMING OBLIGATION (MANDATORY)
+
+When you distribute a modified version of the Software, you MUST rename the
+project to a name that is clearly different from the original project name.
+You are NOT permitted to use the original name, abbreviation, logo, or any
+variation thereof that could cause confusion with the original work.
+
+This requirement applies to the project name, directory names, package names,
+and any promotional materials associated with the distributed version.
+
+Example: If the original project is named "DryfishEngine", a modified version
+may be named "AquaEngine" or "BlueFishCore", but may not be named "DryfishEngine",
+"Dryfish-Modified", "DFEngine", or any name that implies affiliation with the
+original project.
+
+IV. DISCLAIMER OF WARRANTY
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -31,6 +44,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+V. TERMINATION
+
+Any rights granted under this license will terminate automatically and
+immediately if you fail to comply with Section II (Attribution Requirement)
+or Section III (Project Renaming Obligation).
+
+VI. ACCEPTANCE
+
+By using, copying, modifying, or distributing the Software, you indicate your
+acceptance of all terms and conditions of this license.
+
 ---
 
-"Dryfish" is license name, not production name. You don't need to rename production to "Dryfish" :)
+"Dryfish" is the name of this license, not the name of the software.
+You are required to rename your modified version, but you do not need to
+rename it to "Dryfish".
