@@ -1,8 +1,8 @@
 
 # 🐟 Dryfish License
 
-[![License: Dryfish v1.1](https://img.shields.io/badge/License-Dryfish--1.1-blue.svg)](https://github.com/yourname/dryfish-license)
-[![GitHub release](https://img.shields.io/github/v/release/yourname/dryfish-license)](https://github.com/yourname/dryfish-license/releases)
+[![License: Dryfish v1.1](https://img.shields.io/badge/License-Dryfish--1.1-blue.svg)](https://github.com/dryfish09/DryFishLicense)
+
 
 **Brand Protection Meets Open Source Freedom**
 
@@ -173,26 +173,7 @@ In your source files:
 
 ---
 
-## 📁 Repository Structure
 
-```
-dryfish-license/
-├── README.md                      # This file
-├── LICENSE                        # Full license text
-├── CONTRIBUTING.md                # Contribution guidelines
-├── CHANGELOG.md                   # Version history
-├── licenses/
-│   ├── Dryfish-1.1.txt           # Full license
-│   └── Dryfish-1.1-short.txt     # Short summary (for embedding)
-├── .github/
-│   └── ISSUE_TEMPLATE/
-│       ├── bug_report.md
-│       └── license-request.md
-└── website/
-    └── index.html                 # Landing page (GitHub Pages)
-```
-
----
 
 ## 📝 License Summary (Short Version)
 
@@ -206,7 +187,7 @@ DRYFISH LICENSE v1.1 (Short Summary)
 ✅ NO renaming required when using as a library/dependency
 ⚠️ NO WARRANTY - Use at your own risk
 
-Full license: https://github.com/yourname/dryfish-license
+Full license: https://github.com/dryfish09/DryFishLicense
 ```
 
 ---
@@ -267,7 +248,7 @@ The full license text is available in [LICENSE](LICENSE)
 
 ## 💬 Questions?
 
-Open an [issue](https://github.com/dryfush09/DryFishLicense/issues) or start a [discussion](https://github.com/dryfish09/DryFishLicense/discussions).
+Open an [issue](https://github.com/dryfish09/DryFishLicense/issues) or start a [discussion](https://github.com/dryfish09/DryFishLicense/discussions).
 
 ---
 
