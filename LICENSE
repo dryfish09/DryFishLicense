@@ -94,26 +94,13 @@ By using, copying, modifying, or distributing the Software, you indicate your
 acceptance of all terms and conditions of this license.
 
 
-VIII. COMPATIBILITY WITH OTHER LICENSES
-
-This license is designed to be compatible with permissive licenses (MIT, BSD,
-Apache-2.0) for combined works. However, if you combine this Software with
-copyleft-licensed software (GPL, AGPL), the resulting work must comply with
-the terms of BOTH licenses. In case of conflict, the stricter terms prevail.
-
-This license is NOT compatible with:
-- GPL-2.0 (due to GPL's source disclosure requirement vs. proprietary allowance)
-- GPL-3.0 (same issue)
-- AGPL-3.0 (same issue)
-
-
-IX. GOVERNING LAW
+VIII. GOVERNING LAW
 
 This license shall be governed by and construed in accordance with the laws of
 California, United States, without regard to its conflict of law provisions.
 
 
-X. LICENSE VERSIONING
+IX. LICENSE VERSIONING
 
 This license is identified by SPDX-License-Identifier: Dryfish-1.1.2.
 Future versions may be released by the original author or designated
