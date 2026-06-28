@@ -128,9 +128,9 @@ new version. You may continue using the version you originally chose.
 "Dryfish" is the name of this license, not the name of the software.
 
 IMPORTANT REMINDERS:
-1. If you are using this software as a library dependency (e.g., import/require/
-   include in your project), you do NOT need to rename anything except the
-   distribution name if you distribute it as a separate product.
+1. If you are using this software as a library dependency within your project,
+   you do NOT need to rename anything. The renaming requirement only applies
+   if you distribute the library itself as a standalone product.
 2. If you modify the software for internal use only (not distributed outside
    your organization), you do NOT need to rename anything.
 3. If you distribute the software without modifications, you do NOT need to
