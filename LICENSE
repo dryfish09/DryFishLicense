@@ -1,9 +1,10 @@
 DRYFISH LICENSE
-Version 1.1.1, June 2026
+Version 1.1.2, June 2026
 
 Copyright (c) [YEAR] [AUTHOR NAME]
 
-SPDX-License-Identifier: Dryfish-1.1.1
+SPDX-License-Identifier: Dryfish-1.1.2
+
 
 I. GRANT OF RIGHTS
 
@@ -15,64 +16,41 @@ This grant applies to both commercial and non-commercial purposes, and includes
 the right to integrate the Software into proprietary (closed-source) projects
 without requiring the source code of the combined work to be disclosed.
 
+
 II. ATTRIBUTION REQUIREMENT
 
 Any distribution of the Software, whether modified or unmodified, must retain
 the above copyright notice and this permission notice in all copies or
 substantial portions of the Software.
 
-III. PROJECT RENAMING OBLIGATION (MANDATORY)
 
-When you distribute a modified version of the Software as a STANDALONE PROJECT,
-you MUST rename the project to a name that is CLEARLY DIFFERENT from the 
-original project name. The original project name includes, but is not limited to:
+III. PROJECT RENAMING OBLIGATION
 
-1. Repository name (e.g., "DryFishLib" → "WetFishLib" ✓ or "DRYFISH" ✗)
-2. Package/Namespace name (e.g., "com.dryfish.core" → "com.wetfish.core" ✓)
-3. Binary/Executable name (e.g., "dryfish-cli" → "wetfish-cli" ✓)
-4. Display name (e.g., "DryFish Library" → "WetFish Library" ✓)
-5. Logo and branding elements (must be visually distinct)
-6. Any marketing terms used to identify the software
-7. Domain names and URLs associated with the project
-8. Social media handles (Twitter, GitHub, etc.)
+When you distribute a modified version of the Software as a standalone project,
+you MUST rename the project to a name that is clearly different from the
+original. This includes, but is not limited to:
 
-"Clearly different" means:
-- Different root words (e.g., "Fish" → "Shark")
-- Different conceptual branding (e.g., "Dry" → "Wet")
-- Visually distinct (not just changing case, spacing, or punctuation)
+- Repository name
+- Binary/executable name
+- Logo and visual branding
 
-The following are considered VIOLATIONS of this section:
-- Changing only case: "DryFishLib" → "dryfishlib" or "DRYFISHLIB"
-- Adding only punctuation: "DryFishLib" → "Dry-Fish-Lib" or "DryFish.Lib"
-- Adding only numbers: "DryFishLib" → "DryFishLib2" or "DryFishLib2024"
-- Changing only spacing: "DryFishLib" → "Dry Fish Lib"
-- Using abbreviations that clearly refer to the original: "DryFishLib" → "DFL" or "DFLib"
-- Adding prefixes/suffixes that don't change the core identity: "DryFishLib" → "SuperDryFishLib" or "DryFishLibPro"
+"Clearly different" means different root words and distinct visual identity -
+not just changing case, punctuation, spacing, or adding numbers/suffixes.
 
-The following are considered COMPLIANT with this section:
-- Different root word: "DryFishLib" → "WetFishLib" or "AquaLib"
-- Completely different name: "DryFishLib" → "SuperLogger" or "DataProcessor"
-- Different branding concept: "DryFishLib" → "BlueOcean" or "CrystalCore"
+EXCEPTIONS - You are NOT required to rename:
 
-EXCEPTION 1 - Library/Dependency Usage:
-If you are using the Software as a LIBRARY, PACKAGE, OR DEPENDENCY within your
-own project (whether modified or unmodified), you are NOT required to rename
-the library's internal package name, class names, or namespace. The original
-package name (e.g., com.dryfish.core) may remain unchanged. However, if you
-distribute the library itself as a separate product, you MUST rename the
-distribution name (e.g., JAR filename, npm package name, PyPI package name).
+1. Library/Dependency usage - internal package names, class names, or
+   namespaces may remain unchanged. Only the distribution name (e.g., JAR
+   filename, npm package name, PyPI package name) must be renamed if
+   distributed as a separate product.
 
-EXCEPTION 2 - Internal Use:
-If you modify the Software for INTERNAL USE ONLY within your organization
-(e.g., fixing bugs, adding features for internal tools, customizing for
-company-specific needs) and do NOT distribute it outside your organization,
-you are NOT required to rename anything. This exception applies regardless of
-whether the Software is used as a library or as a standalone application.
+2. Internal use - modifications used only within your organization.
 
-EXCEPTION 3 - Unmodified Distribution:
-If you distribute the Software WITHOUT ANY MODIFICATIONS (verbatim copies),
-you are NOT required to rename anything. However, you MUST retain all
-copyright notices and this permission notice (Section II).
+3. Unmodified distribution - verbatim copies.
+
+If you are unsure whether your use case requires renaming, contact the original
+author for clarification.
+
 
 IV. PATENT GRANT
 
@@ -91,6 +69,7 @@ incorporated within the Software constitutes direct or contributory patent
 infringement, then the rights granted to you under this license for the
 Software shall terminate automatically.
 
+
 V. DISCLAIMER OF WARRANTY
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -101,16 +80,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
 VI. TERMINATION
 
 Any rights granted under this license will terminate automatically and
 immediately if you fail to comply with Section II (Attribution Requirement),
 Section III (Project Renaming Obligation), or Section IV (Patent Grant).
 
+
 VII. ACCEPTANCE
 
 By using, copying, modifying, or distributing the Software, you indicate your
 acceptance of all terms and conditions of this license.
+
 
 VIII. COMPATIBILITY WITH OTHER LICENSES
 
@@ -124,29 +106,31 @@ This license is NOT compatible with:
 - GPL-3.0 (same issue)
 - AGPL-3.0 (same issue)
 
+
 IX. GOVERNING LAW
 
 This license shall be governed by and construed in accordance with the laws of
 California, United States, without regard to its conflict of law provisions.
 
+
 X. LICENSE VERSIONING
 
-This license is identified by SPDX-License-Identifier: Dryfish-1.1.1.
+This license is identified by SPDX-License-Identifier: Dryfish-1.1.2.
 Future versions may be released by the original author or designated
 maintainers. You may use any version of this license for your project,
 but you MUST specify which version applies to your distribution
-(e.g., "Dryfish-1.1.1" in your LICENSE file).
+(e.g., "Dryfish-1.1.2" in your LICENSE file).
 
 If a future version is released, you are NOT required to upgrade to the
 new version. You may continue using the version you originally chose.
 
----
 
 "Dryfish" is the name of this license, not the name of the software.
 
 IMPORTANT REMINDERS:
 1. If you are using this software as a library dependency (e.g., import/require/
-   include in your project), you do NOT need to rename anything.
+   include in your project), you do NOT need to rename anything except the
+   distribution name if you distribute it as a separate product.
 2. If you modify the software for internal use only (not distributed outside
    your organization), you do NOT need to rename anything.
 3. If you distribute the software without modifications, you do NOT need to
@@ -156,6 +140,3 @@ IMPORTANT REMINDERS:
 
 If you are unsure whether your use case requires renaming, contact the original
 author for clarification.
-
----
-
