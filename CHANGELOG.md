@@ -7,6 +7,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.2] - 2026-06-28
+
+### Changed
+- **Section III (Project Renaming Obligation)**
+  - Simplified from 8 categories to 3 essential items:
+    - Repository name
+    - Binary/executable name
+    - Logo and visual branding
+  - Removed overly detailed violation/compliance examples
+  - Integrated "clearly different" definition to cover all cases
+  - Kept all three exceptions (Library, Internal Use, Unmodified Distribution)
+  - Significantly shortened for better readability
+
+- **Removed Section VIII (Compatibility with Other Licenses)**
+  - Entire section removed
+  - No more listing of GPL incompatibility
+  - No more potentially provocative statements
+
+- **Important Reminders Section**
+  - Reminder #1 clarified: "If you are using this software as a library dependency within your project, you do NOT need to rename anything. The renaming requirement only applies if you distribute the library itself as a standalone product."
+
+- **Version Number**
+  - Updated from 1.1.1 to 1.1.2
+
+- **SPDX Identifier**
+  - Updated to `Dryfish-1.1.2`
+
+### Removed
+- **Section VIII (Compatibility with Other Licenses)**
+  - Previously listed GPL-2.0, GPL-3.0, AGPL-3.0 as incompatible
+  - Removed to avoid unnecessary confrontation
+
+### Fixed
+- **Reminder #1 Ambiguity**
+  - Previously said "do NOT need to rename anything except the distribution name"
+  - Now clearly separates library usage from standalone distribution
+
+---
+
 ## [1.1.1] - 2026-06-28
 
 ### Added
@@ -65,9 +104,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **SPDX Identifier**
   - `Dryfish-1.1.1` added to license header
-
-- **Repository URL**
-  - Added at the end of license: https://github.com/dryfish09/DryFishLicense
 
 - **Important Reminders Section**
   - 4 reminders about renaming obligations and exceptions
@@ -150,6 +186,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Release Date | Changes |
 |---------|--------------|---------|
+| **v1.1.2** | 2026-06-28 | Simplified renaming section (8→3 items), removed GPL compatibility section, clearer reminders |
 | **v1.1.1** | 2026-06-28 | Patent Grant, 3 Exceptions (Internal Use, Unmodified Distribution), License Versioning, Expanded Definitions, SPDX |
 | **v1.1** | 2026-06-27 | Library Exception, Concrete Examples |
 | **v1.0** | 2026-06-26 | Initial Release |
@@ -183,6 +220,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ✅ Benefits apply automatically
 - ✅ Review new "PROJECT NAME" definition to ensure compliance
 - ✅ Review Patent Grant terms
+
+---
+
+### Upgrading from v1.1.1 to v1.1.2
+
+**Changes:**
+- Renaming section simplified from 8 to 3 essential items
+- GPL compatibility section removed
+- Reminder #1 clarified
+
+**Action:**
+- ✅ No action needed for existing users
+- ✅ Easier to read and understand
+- ✅ Less confrontational
 
 ---
 
@@ -227,7 +278,6 @@ If you have suggestions for future versions:
 ## 📚 Related Documentation
 
 - [Full License Text](LICENSE)
-- [Short Summary](licenses/Dryfish-1.1.1-short.txt)
 - [README](README.md)
 - [Contributing Guide](CONTRIBUTING.md)
 
@@ -238,7 +288,7 @@ If you have suggestions for future versions:
 Special thanks to everyone who contributed feedback and suggestions:
 
 - **dryfish09** - Creator and maintainer
-- **phamhonglongqh-gif** - Contributed to v1.1.1 definition expansion
+- **phamhonglongqh-gif** - Contributed to v1.1.1 definition expansion and v1.1.2 simplification
 - **Open source community** - For inspiration and feedback
 - **Early adopters** - For testing and providing real-world use cases
 
@@ -249,7 +299,7 @@ Special thanks to everyone who contributed feedback and suggestions:
 - **Repository**: https://github.com/dryfish09/DryFishLicense
 - **Issues**: https://github.com/dryfish09/DryFishLicense/issues
 - **Discussions**: https://github.com/dryfish09/DryFishLicense/discussions
-- **SPDX**: Dryfish-1.1.1
+- **SPDX**: Dryfish-1.1.2
 
 ---
 
