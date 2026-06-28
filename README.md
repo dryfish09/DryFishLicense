@@ -25,6 +25,7 @@ The **DryFishLicense** is a permissive open-source license that bridges the gap 
 - ✅ **Brand protection** - Mandatory renaming of standalone forks
 - ✅ **Practical exceptions** - No renaming for libraries, internal use, or unmodified copies
 - ✅ **License versioning** - SPDX identifier `Dryfish-1.1.2`
+- ✅ **Concise and readable** - Clear, short, and easy to understand
 
 ---
 
@@ -41,21 +42,9 @@ The **DryFishLicense** is a permissive open-source license that bridges the gap 
 | Patent Grant | ❌ | ❌ | ✅ | ✅ |
 | License Versioning | ❌ | ❌ | ✅ | ✅ |
 | SPDX Identifier | ❌ | ❌ | ✅ | ✅ |
-| "PROJECT NAME" definition | ❌ | ❌ | ✅ | ✅ |
-| Violation/Compliance examples | ❌ | ❌ | ✅ | ❌ (removed - simplified) |
-| Streamlined renaming section | ❌ | ❌ | ❌ | ✅ |
-| Simplified Important Reminders | ❌ | ❌ | ❌ | ✅ |
-
-### What Changed in v1.1.2?
-
-**Simplified Section III (Project Renaming Obligation):**
-- Reduced from 8 items to 3 key items (Repository, Binary/Executable, Logo)
-- Removed overly detailed violation/compliance examples
-- Cleaner, more readable, easier to understand
-
-**Clarified Important Reminders:**
-- Fixed confusing wording in reminder #1
-- Now clearly states: "If you are using this software as a library dependency within your project, you do NOT need to rename anything. The renaming requirement only applies if you distribute the library itself as a standalone product."
+| Concise renaming section | ❌ | ❌ | ❌ | ✅ |
+| Removed GPL compatibility section | ❌ | ❌ | ❌ | ✅ |
+| Clearer reminders | ❌ | ❌ | ❌ | ✅ |
 
 ---
 
@@ -73,117 +62,119 @@ You create a **STANDALONE FORKED PROJECT** distributed as a separate product.
 | Binary/Executable | `dryfish-cli` → `wetfish-cli` ✓ | `dryfish-cli` → `DRYFISH-CLI` ✗ |
 | Logo/Branding | Visually distinct ✓ | Only color change ✗ |
 
-**"Clearly different" means:**
-- Different root words (e.g., "Fish" → "Shark")
-- Distinct visual identity
-- NOT just changing case, punctuation, spacing, or adding numbers/suffixes
+### ❌ You Do NOT Need to Rename When:
+
+| Scenario | Example |
+|----------|---------|
+| **Library/Dependency usage** | Using `DryFishLib` as a dependency in your app. No renaming needed. |
+| **Internal use** | Modifying the software for internal tools. No renaming needed. |
+| **Unmodified distribution** | Distributing verbatim copies. No renaming needed. |
 
 ---
 
-## 🔓 When You Do NOT Need to Rename
+## 🚀 Quick Start
 
-| Scenario | Renaming Required? |
-|----------|-------------------|
-| Using as a library within your project | ❌ No |
-| Modifying for internal use only | ❌ No |
-| Distributing unmodified copies | ❌ No |
-| Forking and distributing modified standalone project | ✅ Yes |
+### For Users (Using the Software)
 
----
+Simply use, modify, and distribute the Software as you wish. Just remember:
 
-## 📄 Full License Text
+1. **Keep the copyright notice** (Section II)
+2. **Rename if you create a standalone fork** (Section III)
+3. **That's it!**
 
-The complete license text is available in [LICENSE](LICENSE) file.
+### For Contributors
 
-SPDX-License-Identifier: Dryfish-1.1.2
+When contributing to a project under DryFishLicense:
 
----
+1. Your contributions are covered by the Patent Grant (Section IV)
+2. You grant patent licenses to all users automatically
+3. You retain copyright of your contributions
 
-## 🚀 Why DryFishLicense?
+### For Project Maintainers
 
-### The Problem
-Traditional permissive licenses (MIT, BSD) allow anyone to fork your project, modify it, and redistribute it under the same or different name - potentially confusing users and damaging your brand.
+If you adopt DryFishLicense for your project:
 
-### The Solution
-DryFishLicense solves this by requiring standalone forks to use a clearly different name, while still allowing:
-- Libraries to be used without renaming
-- Internal modifications without renaming
-- Unmodified redistribution without renaming
+1. Copy the full license text to your `LICENSE` file
+2. Replace `[YEAR]` and `[AUTHOR NAME]`
+3. Specify the version: `Dryfish-1.1.2`
 
 ---
 
-## 🆚 Comparison with Other Licenses
+## 📚 Comparison with Other Licenses
 
-| Feature | MIT | BSD | Apache-2.0 | GPL | **DryFish** |
-|---------|-----|-----|------------|-----|-------------|
+| Feature | MIT | BSD | Apache-2.0 | GPL-3.0 | **DryFish** |
+|---------|-----|-----|------------|---------|-------------|
 | Commercial use | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Proprietary use | ✅ | ✅ | ✅ | ❌ | ✅ |
-| Patent grant | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Brand protection | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Standalone fork renaming | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Library exception | N/A | N/A | N/A | N/A | ✅ |
-| Internal use exception | N/A | N/A | N/A | N/A | ✅ |
-| Copyleft | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Modify source | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Distribute | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Sublicense | ✅ | ✅ | ✅ | ❌ | ✅ |
+| Private use | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Patent protection | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Brand protection | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Source disclosure | ❌ | ❌ | ❌ | ✅ | ❌ |
 
 ---
 
-## 📝 How to Use
+## 💡 Philosophy
 
-### For Software Authors
+The DryFishLicense was created to solve a common problem in open source:
 
-1. Copy the [LICENSE](LICENSE) file to your project
-2. Replace `[YEAR]` with the current year
-3. Replace `[AUTHOR NAME]` with your name or organization
-4. Add SPDX identifier to your files: `SPDX-License-Identifier: Dryfish-1.1.2`
+> "I want to share my code freely, but I don't want others to create confusing forks that damage my brand."
 
-### For Users
+**The solution is simple:**
+- Use it freely as a library → no renaming needed
+- Fork it internally → no renaming needed
+- Distribute it unchanged → no renaming needed
+- **Only when you create a standalone forked product** → rename it
 
-- Read the full license text
-- Follow the attribution requirement (Section II)
-- Rename if you create a standalone forked project (Section III)
-- Contact the original author if unsure
+This protects both the original author's reputation and the user's freedom.
 
 ---
 
-## ❓ FAQ
+## 📄 License Versions
 
-**Q: Do I need to rename if I use DryFish-licensed code as a library?**
-
-A: No. Internal package names, class names, and namespaces can remain unchanged. Only the distribution name must be renamed if you distribute the library itself as a standalone product.
-
-**Q: Do I need to rename if I modify the code for internal use?**
-
-A: No. Internal modifications within your organization do not require renaming.
-
-**Q: Do I need to rename if I distribute unmodified copies?**
-
-A: No. You can distribute verbatim copies without renaming.
-
-**Q: What exactly must be renamed?**
-
-A: Repository name, binary/executable name, and logo/visual branding must be clearly different.
-
-**Q: What if I'm unsure whether my use case requires renaming?**
-
-A: Contact the original author for clarification.
+| Version | Release Date | Changes |
+|---------|--------------|---------|
+| v1.0 | [Date] | Initial release |
+| v1.1 | [Date] | Added library exception |
+| v1.1.1 | June 2026 | Added internal use & unmodified distribution exceptions, Patent Grant, SPDX, examples |
+| **v1.1.2** | **June 2026** | **Concise renaming section, removed GPL compatibility section, clearer reminders** |
 
 ---
 
-## 📞 Contact
+## 🤝 Contributing
 
-- **Issues**: [GitHub Issues](https://github.com/dryfish09/DryFishLicense/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/dryfish09/DryFishLicense/discussions)
+We welcome contributions to improve this license! Please:
+
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request
+
+### Suggested Improvements
+
+- Clarify edge cases
+- Add more real-world examples
+- Translate to other languages
 
 ---
 
-## 📜 License
+## ⚖️ Disclaimer
 
-This repository (the license text itself) is under DryFish License
+This license is provided "as is" without warranty of any kind. The authors and copyright holders are not liable for any claims, damages, or other liabilities arising from the use of this license.
 
----
-
-**Made with ❤️ by [dryfish09](https://github.com/dryfish09)**
+**This is not legal advice.** Consult a lawyer for legal advice regarding licensing.
 
 ---
 
-*"Dryfish" is the name of this license, not the name of the software.*
+## 🌟 Support
+
+If you find this license useful, please:
+
+- ⭐ Star the repository
+- 🍴 Fork the repository
+- 📣 Share with others
+- ✍️ Use it in your projects
+
+---
+
+**DryFishLicense** - *Brand Protection Meets Open Source Freedom*
